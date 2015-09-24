@@ -2,6 +2,7 @@ Camera
 ====================
 <a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-camera" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-camera" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
+<a id="top"></a>
 * [Overview](#overview)
 * [Showcased APIs](#showcased-apis)
 * [Screenshots](#screenshots)
@@ -16,17 +17,23 @@ This sample shows you how to use the Camera core plugin to access the camera and
 >
 > *Developed with:* Apache Cordova 3.7.0
 
+[Back to Top](#top)
+
 # Showcased APIs
 
 This sample shows how to use the following method of the [Camera API][Camera API].
 
 * **getPicture():** Depending on the `sourceType` option, shoots a picture with the default camera app or gets picture from the device album. Depending on the `destinationType` option, returns the picture the success handler as a string of Base64 encoded photo or a photo URI.
 
+[Back to Top](#top)
+
 # Screenshots
 
 Platform | Home 
 ---|---
 All | ![](https://github.com/Icenium/sample-camera/blob/master/screenshots/home.jpg)
+
+[Back to Top](#top)
 
 # Test the Sample
 
@@ -46,6 +53,8 @@ With the AppBuilder in-browser client, you can develop hybrid and NativeScript c
 1. [Run in the device simulator.][device simulator]
 1. [Run in the companion app.][companion]
 1. [Deploy on device via QR code.][QR code]
+
+[Back to Top](#top)
 
 ## Windows
 
@@ -70,6 +79,8 @@ With the AppBuilder Windows client, you can quickly test your apps on device, in
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 ## Visual Studio
 
@@ -96,6 +107,8 @@ With the AppBuilder extension for Visual Studio, you can quickly test your apps 
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 ## CLI
 
@@ -127,11 +140,15 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
 
+[Back to Top](#top)
+
 # Limitations
 
 * You can run this sample in the device simulator but the Camera API is not fully supported there. In the simulator, you can only get pictures from your file system.
 * On Android devices, **Photo Library** and **Photo Album** show the same photo album.
 * On Android devices, you cannot use **Take Editable Photo**.
+
+[Back to Top](#top)
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
