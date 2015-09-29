@@ -31,7 +31,7 @@ This sample shows how to use the following method of the [Camera API][Camera API
 
 Platform | Home 
 ---|---
-All | ![](https://github.com/Icenium/sample-camera/blob/master/screenshots/home.jpg)
+All | ![](https://raw.githubusercontent.com/Icenium/sample-camera/master/screenshots/home.jpg)
 
 [Back to Top](#top)
 
