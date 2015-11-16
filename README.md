@@ -4,7 +4,6 @@ Camera
 
 <a id="top"></a>
 * [Overview](#overview)
-* [Showcased APIs](#showcased-apis)
 * [Screenshots](#screenshots)
 * [Test the Sample](#test-the-sample)
 * [Limitations](#limitations)
@@ -16,14 +15,6 @@ This sample shows you how to use the Camera core plugin to access the camera and
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0
-
-[Back to Top](#top)
-
-# Showcased APIs
-
-This sample shows how to use the following method of the [Camera API][Camera API].
-
-* **getPicture():** Depending on the `sourceType` option, shoots a picture with the default camera app or gets picture from the device album. Depending on the `destinationType` option, returns the picture the success handler as a string of Base64 encoded photo or a photo URI.
 
 [Back to Top](#top)
 
@@ -155,4 +146,3 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 [QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
 [USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
 [emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
-[Camera API]: http://plugins.cordova.io/#/package/org.apache.cordova.camera

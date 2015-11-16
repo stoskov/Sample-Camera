@@ -5,3 +5,4 @@ description: This sample shows you how to use the Camera Apache Cordova core plu
 tags: Apache Cordova, core, camera, image gallery, iOS, Android, Windows Phone
 publish: true
 content_filter: true
+apis: cordova.camera cordova.camera.getPicture
