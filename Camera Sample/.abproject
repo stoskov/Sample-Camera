@@ -30,12 +30,13 @@
 		"2"
 	],
 	"AndroidVersionCode": "1",
-	"AndroidHardwareAcceleration": "false",
-	"FrameworkVersion": "3.7.0",
+	"AndroidHardwareAcceleration": "true",
+	"FrameworkVersion": "4.0.0",
 	"CorePlugins": [
-		"org.apache.cordova.camera",
-		"org.apache.cordova.device",
-		"org.apache.cordova.splashscreen"
+		"cordova-plugin-camera",
+		"cordova-plugin-device",
+		"cordova-plugin-splashscreen",
+		"cordova-plugin-whitelist"
 	],
 	"DisplayName": "Camera",
 	"WP8SupportedResolutions": [
