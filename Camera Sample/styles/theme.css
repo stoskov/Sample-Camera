@@ -685,6 +685,13 @@ p {
   @media only screen and (min-width: 768px) {
     .col {
       padding: 20px; } }
+  .col.-stretch-item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
   .col.-text-left {
     text-align: left; }
   .col.-text-right {

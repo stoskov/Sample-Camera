@@ -13,8 +13,8 @@
         </div>
 		<div class="subheader">
 			<div class="row">
-				<div class="col">
-					<button class="button" id="capturePhotoButton">Take Photo with Camera</button>
+				<div class="col -stretch-item">
+					<button class="button" id="capturePhotoButton">Take Photo</button>
 				</div>
 				<div class="col">
 					<button class="button" id="capturePhotoEditButton">Take Editable Photo (iOS)</button>
@@ -30,15 +30,21 @@
 			</div>
 		</div>
         <div class="content">
-            <div class="row">
-                <div class="col -align-center">
-                    <div class="u-color-accent">Note: Photo Library and Photo Album display the same photo album on Android.</div>
-		            <img style="display:none;margin:5px auto; width:120px; height:120px;" id="smallImage" src="" />
-                </div>
+			<div class="row -nopadding">
+				<div class="col -align-center">
+					<img style="display:none;margin:5px auto; max-width:80%; max-height:80%;" id="smallImage" src="" />
+				</div>
 			</div>
         </div>
+		<div class="subfooter">
+			<div class="row">
+				<div class="col -align-center">
+					<div class="u-color-accent">Note: Photo Library and Photo Album display the same photo album on Android.</div>
+				</div>
+			</div>
+		</div>
 		<div class="footer">
-			<span>Cordova Plugins Samples</span>
+			<span>Feature Examples</span>
 		</div>
 	</body>
 </html>
