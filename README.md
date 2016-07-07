@@ -22,7 +22,7 @@ This sample shows you how to use the Camera core plugin to access the camera and
 
 Platform | Home 
 ---|---
-All | ![](screenshots/home.jpg)
+All | ![](https://raw.githubusercontent.com/Icenium/Sample-Camera/master/screenshots/home.jpg)
 
 [Back to Top](#top)
 
